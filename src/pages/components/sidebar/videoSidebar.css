@@ -1,0 +1,28 @@
+.videoSidebar {
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    color: white;
+}
+
+.videoSidebar__options {
+    padding: 20px;
+    text-align: center;
+}
+
+/*MOBILE*/
+@media only screen and (max-width:  600px) {
+    .videoSidebar {
+        top: 45%;
+        right: 0px;
+    }
+    
+  }
+
+  /*TELAS MEDIAS*/
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    .videoSidebar {
+        top: 40%;
+        right: 0px;
+    }
+}
